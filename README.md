@@ -38,7 +38,7 @@ Make sure you have the following installed:
 2. Install the dependencies:
 
    ```bash
-   npm install
+   npm install mongoose express ejs bcrypt
    ```
 
 3. Set up your MongoDB database. Update the database configuration in the `config.js` file.
@@ -46,7 +46,7 @@ Make sure you have the following installed:
 4. Start the server:
 
    ```bash
-   node index.js
+   node src/index.js
    ```
 
 5. Open your browser and go to `http://localhost:5000` to access the application.
