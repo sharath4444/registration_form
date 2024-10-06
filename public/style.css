@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:rgb(250, 247, 215);
+        background-color:rgb(250, 247, 215);
 }
 
 body {
@@ -10,6 +10,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('images/bg4.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 h2 {
